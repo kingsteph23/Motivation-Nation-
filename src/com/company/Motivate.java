@@ -33,18 +33,21 @@ public class Motivate {
         System.out.println("Just Curious, What time of day is it in your Location?" +
                 "\nMorning" +
                 "\nAfterNoon" +
-                "\nEvening");
+                "\nEvening" +
+                "\n:");
         String TOD = scan.nextLine();
 
         System.out.println();
 
-        System.out.println("Good," +TOD+ " What is your name?:");
+        System.out.println("And... What is your name?:");
         String name = scan.nextLine();
 
-        System.out.println("Oh well, Hello there," +name+ "!" +
-                "\nWell here some motiviation for ya day!");
+        System.out.println("Good "+TOD+" "+name+"!"+
+                "\nWell here some motivation for ya day!");
 
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/uuuu " +
+        // Bellow shows the formatting of the month, day and year. And current time
+
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/uuuu " +
                 "\nHH:mm:ss");
         System.out.println();
         System.out.println("Current time zone:" +
@@ -58,25 +61,26 @@ public class Motivate {
         ZonedDateTime now = ZonedDateTime.now();
         System.out.println("Current Time/date:" +
                 "\n"+dtf.format(now));
-        // Outputs 02/06/2021  time:22:44:56
+        // Outputs 06/02/2021  time:22:44:56
         // Quotes either from me, I've heard, or people i know personally(doesn't really include quotes from celebrities)
         ArrayList<String> regularmotivationquotes = new ArrayList<>();
 
-        regularmotivationquotes.add("This too shall past");
-        regularmotivationquotes.add("You can't expect someone to love you if you don't love yourself");
-        regularmotivationquotes.add("You don't lose if you get knocked down,  you lose if you stay down");
-        regularmotivationquotes.add("Everyone wants results, but nobody wants to put in work to get those results.");
-        regularmotivationquotes.add("Everyday, put in that work!!");
-        regularmotivationquotes.add("Some things in life are difficult; but difficult does not mean impossible");
-        regularmotivationquotes.add("Little things make big days");
-        regularmotivationquotes.add("Your limitation—it’s only your imagination.");
-        regularmotivationquotes.add("Great things never come from comfort zones.");
-        regularmotivationquotes.add("Do something today that your future self will thank you for");
-        regularmotivationquotes.add("Everything comes from within");
+        regularmotivationquotes.add("\"You can't expect someone to love you if you don't love yourself\"");
+        regularmotivationquotes.add("\"You don't lose if you get knocked down,  you lose if you stay down\"");
+        regularmotivationquotes.add("\"Everyone wants results, but nobody wants to put in work to get those results.\"");
+        regularmotivationquotes.add("\"Everyday, put in that work!!");
+        regularmotivationquotes.add("\"Some things in life are difficult; but difficult does not mean impossible\"");
+        regularmotivationquotes.add("\"Little things make big days\"");
+        regularmotivationquotes.add("\"Your limitation—it’s only your imagination.\"");
+        regularmotivationquotes.add("\"Great things never come from comfort zones.\"");
+        regularmotivationquotes.add("\"Do something today that your future self will thank you for\"");
+        regularmotivationquotes.add("\"Everything comes from within\"");
+        regularmotivationquotes.add("\"Love yourz\"");
+        regularmotivationquotes.add("\"Trust thy self, Know they self, Love thy self\"");
 
 
 
-// Quotes from Celebrites/Famous people in history
+// Quotes from Celebrities/Famous people in history
         ArrayList<String> celebritiyquotes = new ArrayList<>();
 
         // quotes from Bruce Lee
@@ -105,14 +109,14 @@ public class Motivate {
 // Quote from Frank Ocean
         celebritiyquotes.add("\"Work hard in silence, let your success be your noise.” " +
                 "\n\"-Frank Ocean");
-//Quotes on Subconcious Mind/Success
+//Quotes on Subconscious Mind/Success
         celebritiyquotes.add("\"It is almost impossible to be consistent with your goal if your subconscious mind " +
                 "\nis constantly fed with negative perceptions of its road\"-Edmond Mbiaka");
 
         celebritiyquotes.add("\"Whatever your conscious mind assumes and believes to be true,your subconscious mind will accept and bring to pass.  " +
                 "\nBelieve in good fortune, divine guidance, right action, and all the blessings of life.\" Joseph Murphy");
 
-        celebritiyquotes.add("\"We are what we repeatedly do. Excellence then, is not an act, but a habit\"-Aristole");
+        celebritiyquotes.add("\"We are what we repeatedly do. Excellence then, is not an act, but a habit\"-Aristotle");
 
         celebritiyquotes.add("\"Strive not to be a success, but rather to be of value.\"-Albert Einstein");
 
