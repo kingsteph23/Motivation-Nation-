@@ -83,42 +83,6 @@ public class Motivate {
 // Quotes from Celebrities/Famous people in history
         ArrayList<String> celebritiyquotes = new ArrayList<>();
 
-        // quotes from Bruce Lee
-        celebritiyquotes.add("\"Always be yourself, express yourself, have faith in yourself, " +
-                "\ndo not go out and look for a successful personality and duplicate it.\"-Bruce Lee");
-
-        celebritiyquotes.add("\"As you think, so shall you become.\"-Bruce Lee");
-        celebritiyquotes.add("\"If you spend too much time thinking about a thing, you'll never get it done.\"-Bruce Lee");
-
-        celebritiyquotes.add("\"Showing off is the fool's idea of glory\"-Bruce Lee");
-
-        celebritiyquotes.add("\"Be like water making its way through cracks. " +
-                "\nDo not be assertive, but adjust to the object, and you shall find a way around or through it. " +
-                "\nIf nothing within you stays rigid, outward things will disclose themselves.\"-Bruce Lee");
-
-        celebritiyquotes.add("\nIf you put water into a cup, it becomes the cup. You put water into a bottle and it becomes the bottle. " +
-                        "\nYou put it in a teapot, it becomes the teapot. " +
-                       "\nNow, water can flow or it can crash. Be water, my friend.-Bruce Lee\n");
-
-                      celebritiyquotes.add("\"I fear not the man who has practiced 10,000 kicks once," +
-                              "\nbut I fear the man who had practiced one kick 10,000 times.\"-Bruce Lee");
-
-// Quote From Colin Powell
-        celebritiyquotes.add("\"There are no secrets to success. It is the result of preparation, hard work, and learning from failure. " +
-                "\n\"-Collin Powell");
-// Quote from Frank Ocean
-        celebritiyquotes.add("\"Work hard in silence, let your success be your noise.” " +
-                "\n\"-Frank Ocean");
-//Quotes on Subconscious Mind/Success
-        celebritiyquotes.add("\"It is almost impossible to be consistent with your goal if your subconscious mind " +
-                "\nis constantly fed with negative perceptions of its road\"-Edmond Mbiaka");
-
-        celebritiyquotes.add("\"Whatever your conscious mind assumes and believes to be true,your subconscious mind will accept and bring to pass.  " +
-                "\nBelieve in good fortune, divine guidance, right action, and all the blessings of life.\" Joseph Murphy");
-
-        celebritiyquotes.add("\"We are what we repeatedly do. Excellence then, is not an act, but a habit\"-Aristotle");
-
-        celebritiyquotes.add("\"Strive not to be a success, but rather to be of value.\"-Albert Einstein");
 
 //Quotes from nas
         celebritiyquotes.add("\"Mistakes make masterful teachers.\"-Nas");
@@ -138,6 +102,42 @@ public class Motivate {
         celebritiyquotes.add("\"It’s a waste of energy to think about what somebody else is doing and how they doing it. I’ma just do what I do.\"-DMX");
         celebritiyquotes.add("\"Never become so involved with something that it blinds you.\"-DMX");
 
+        // quotes from Bruce Lee
+        celebritiyquotes.add("\"Always be yourself, express yourself, have faith in yourself, " +
+                "\ndo not go out and look for a successful personality and duplicate it.\"-Bruce Lee");
+
+        celebritiyquotes.add("\"As you think, so shall you become.\"-Bruce Lee");
+        celebritiyquotes.add("\"If you spend too much time thinking about a thing, you'll never get it done.\"-Bruce Lee");
+
+        celebritiyquotes.add("\"Showing off is the fool's idea of glory\"-Bruce Lee");
+
+        celebritiyquotes.add("\"Be like water making its way through cracks. " +
+                "\nDo not be assertive, but adjust to the object, and you shall find a way around or through it. " +
+                "\nIf nothing within you stays rigid, outward things will disclose themselves.\"-Bruce Lee");
+
+        celebritiyquotes.add("\nIf you put water into a cup, it becomes the cup. You put water into a bottle and it becomes the bottle. " +
+                "\nYou put it in a teapot, it becomes the teapot. " +
+                "\nNow, water can flow or it can crash. Be water, my friend.-Bruce Lee\n");
+
+        celebritiyquotes.add("\"I fear not the man who has practiced 10,000 kicks once," +
+                "\nbut I fear the man who had practiced one kick 10,000 times.\"-Bruce Lee");
+
+// Quote From Colin Powell
+        celebritiyquotes.add("\"There are no secrets to success. It is the result of preparation, hard work, and learning from failure. " +
+                "\n\"-Collin Powell");
+// Quote from Frank Ocean
+        celebritiyquotes.add("\"Work hard in silence, let your success be your noise.” " +
+                "\n\"-Frank Ocean");
+//Quotes on Subconscious Mind/Success
+        celebritiyquotes.add("\"It is almost impossible to be consistent with your goal if your subconscious mind " +
+                "\nis constantly fed with negative perceptions of its road\"-Edmond Mbiaka");
+
+        celebritiyquotes.add("\"Whatever your conscious mind assumes and believes to be true,your subconscious mind will accept and bring to pass.  " +
+                "\nBelieve in good fortune, divine guidance, right action, and all the blessings of life.\" Joseph Murphy");
+
+        celebritiyquotes.add("\"We are what we repeatedly do. Excellence then, is not an act, but a habit\"-Aristotle");
+
+        celebritiyquotes.add("\"Strive not to be a success, but rather to be of value.\"-Albert Einstein");
 
         // helps with generating/randomizing quotes
 
@@ -146,10 +146,11 @@ public class Motivate {
 
         // Prints out Quotes(both celebrity and personal quotes
 
-        System.out.println("Quote of the Day:"+regularmotivationquotes.get(index));
+        System.out.println("Quote of the Day:"
+                +regularmotivationquotes.get(index));
         System.out.println();
         System.out.println("Celebrity quote of the day:"
-                +celebritiyquotes.get(index));
+                +celebritiyquotes.get(windex));
 
     }
 }
