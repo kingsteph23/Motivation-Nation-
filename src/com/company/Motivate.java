@@ -78,6 +78,17 @@ public class Motivate {
         regularmotivationquotes.add("\"Love yourz\"");
         regularmotivationquotes.add("\"Trust thy self, Know they self, Love thy self\"");
 
+        // quotes from people i know
+        ArrayList<String> quotesdesamies = new ArrayList<>();
+
+        quotesdesamies.add("\"\"Allow yourself to grow. That means giving up some things." +
+                "\nThere means giving up some things. There are things we can't how forever" +
+                "\nKnow when something is no longer serving its purpose to lift you up." +
+                "\nKnow when to let go of things that keep holding you back and making you" +
+                "\nfeel life you are not good at it. You will always be good for something.Go for it\"");
+
+        quotesdesamies.add("\"A secret to happiness is letting every situation be what it is," +
+                "\ninstead of what you think it should be, and then making the best of it.\"");
 
 
 // Quotes from Celebrities/Famous people in history
@@ -132,7 +143,7 @@ public class Motivate {
         celebritiyquotes.add("\"It is almost impossible to be consistent with your goal if your subconscious mind " +
                 "\nis constantly fed with negative perceptions of its road\"-Edmond Mbiaka");
 
-        celebritiyquotes.add("\"Whatever your conscious mind assumes and believes to be true,your subconscious mind will accept and bring to pass.  " +
+        celebritiyquotes.add("\"Whatever your conscious mind assumes and believes to be true,your subconscious mind will accept and bring to pass." +
                 "\nBelieve in good fortune, divine guidance, right action, and all the blessings of life.\" Joseph Murphy");
 
         celebritiyquotes.add("\"We are what we repeatedly do. Excellence then, is not an act, but a habit\"-Aristotle");
@@ -143,11 +154,15 @@ public class Motivate {
 
         int index = (int)(Math.random() * regularmotivationquotes.size());
         int windex = (int)(Math.random() * celebritiyquotes.size());
+        int apex =(int)(Math.random() * quotesdesamies.size());
 
         // Prints out Quotes(both celebrity and personal quotes
 
         System.out.println("Quote of the Day:"
                 +regularmotivationquotes.get(index));
+        System.out.println();
+        System.out.println("Friends quote of the day:"
+                +quotesdesamies.get(apex));
         System.out.println();
         System.out.println("Celebrity quote of the day:"
                 +celebritiyquotes.get(windex));
