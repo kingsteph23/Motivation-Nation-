@@ -150,6 +150,14 @@ public class Motivate {
 
         celebritiyquotes.add("\"Strive not to be a success, but rather to be of value.\"-Albert Einstein");
 
+// New quotes(8/11/21)
+        celebritiyquotes.add("\"If you scared to take chances, you'll never have the answers..\"-Nas");
+        celebritiyquotes.add("\"Don't speak to fools, they scorn the wisdom of your words.\"-Nas");
+        celebritiyquotes.add("\"The secret of getting ahead is getting started\"-walt disney");
+        celebritiyquotes.add("\"Keep grindin’ boy, your life can change in one year, And even when it’s dark out, " +
+                "\nthe sun is shining somewhere.\"-J Cole");
+        celebritiyquotes.add("\"Life is a movie, pick your own role, Climb your own ladder or you dig your own hole\"-J Cole ");
+        celebritiyquotes.add("\"It does not matter how slowly you go as long as you do not stop.\"-Confucius");
         // helps with generating/randomizing quotes
 
         int index = (int)(Math.random() * regularmotivationquotes.size());
