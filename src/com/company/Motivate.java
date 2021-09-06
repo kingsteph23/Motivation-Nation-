@@ -77,6 +77,16 @@ public class Motivate {
         regularmotivationquotes.add("\"Everything comes from within\"");
         regularmotivationquotes.add("\"Love yourz\"");
         regularmotivationquotes.add("\"Trust thy self, Know they self, Love thy self\"");
+        // quotes of 9/6/21
+        regularmotivationquotes.add("\"Progress Demands Sacrifice\"");
+        regularmotivationquotes.add("\"It always seems impossible, until it’s done.\"");
+        regularmotivationquotes.add("\"You didn’t come this far, to only come this far.\"");
+        regularmotivationquotes.add("\"An addict who overcomes addiction is capable of accomplishing anything.\"");
+        regularmotivationquotes.add("\"The comeback must always be greater than the setback.\"");
+        regularmotivationquotes.add("\"A mistake repeated more than once is a decision\"");
+        regularmotivationquotes.add("\"We gain the strength of the temptation we resist.\"");
+        regularmotivationquotes.add("\"If I quit now, I will soon be back to where I started. " +
+                "\nAnd when I started, I was desperately wishing to be where I am now.\"");
 
         // quotes from people i know
         ArrayList<String> quotesdesamies = new ArrayList<>();
@@ -158,7 +168,19 @@ public class Motivate {
                 "\nthe sun is shining somewhere.\"-J Cole");
         celebritiyquotes.add("\"Life is a movie, pick your own role, Climb your own ladder or you dig your own hole\"-J Cole ");
         celebritiyquotes.add("\"It does not matter how slowly you go as long as you do not stop.\"-Confucius");
+        // new quotes-9/6/21
+        celebritiyquotes.add("\"A warrior is not a person that carries something destructive. " +
+                "\nThe biggest war you ever go through is right between your own ears. " +
+                "\nIt’s in your mind. We’re all going through a war in our mind, " +
+                "\nand we have to callus our mind to fight that war and to win that war”.\"-David goggins");
+
+        celebritiyquotes.add("\"Like success, failure is many things to many people. " +
+                "With a confident mental attitude, failure is a learning experience, a rung on the ladder, " +
+                "and a plateau at which to get your thoughts in order to prepare to try again\"-W. Clement Stone");
+
+
         // helps with generating/randomizing quotes
+
 
         int index = (int)(Math.random() * regularmotivationquotes.size());
         int windex = (int)(Math.random() * celebritiyquotes.size());
