@@ -178,6 +178,11 @@ public class Motivate {
                 "With a confident mental attitude, failure is a learning experience, a rung on the ladder, " +
                 "and a plateau at which to get your thoughts in order to prepare to try again\"-W. Clement Stone");
 
+                //new quotes 2/15/21
+                celebritiyquotes.add("\"In a world filled with misery and uncertainty, it is a great comfort to know that, in the end, there is light in the darkness.\"-Joshua Graham(FNV)");
+
+        
+                celebritiyquotes.add("\"For many of us, the road is a difficult one, but the path is always there for us to follow, no matter how many times we may fall.\"-Joshua Graham(FNV)");
 
         // helps with generating/randomizing quotes
 
