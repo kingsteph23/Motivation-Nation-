@@ -95,11 +95,12 @@ public class Motivate {
                 "\nThere means giving up some things. There are things we can't how forever" +
                 "\nKnow when something is no longer serving its purpose to lift you up." +
                 "\nKnow when to let go of things that keep holding you back and making you" +
-                "\nfeel life you are not good at it. You will always be good for something.Go for it\"");
+                "\nfeel life you are not good at it. You will always be good for something.Go for it\"-CY");
 
         quotesdesamies.add("\"A secret to happiness is letting every situation be what it is," +
-                "\ninstead of what you think it should be, and then making the best of it.\"");
+                "\ninstead of what you think it should be, and then making the best of it.\"-CY");
 
+                quotesdesamies.add("\"all work and no play...will keep the doctors in your living room\"-Mr EI");
 
 // Quotes from Celebrities/Famous people in history
         ArrayList<String> celebritiyquotes = new ArrayList<>();
