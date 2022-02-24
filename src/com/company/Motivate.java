@@ -101,10 +101,10 @@ public class Motivate {
                 "\ninstead of what you think it should be, and then making the best of it.\"-CY");
 
                 quotesdesamies.add("\"all work and no play...will keep the doctors in your living room\"-Mr EI");
+                quotesdesamies.add("\"just because you try doesn't mean you'll succeed, but you can only reach success if you try\"- ON");
 
 // Quotes from Celebrities/Famous people in history
         ArrayList<String> celebritiyquotes = new ArrayList<>();
-
 
 //Quotes from nas
         celebritiyquotes.add("\"Mistakes make masterful teachers.\"-Nas");
